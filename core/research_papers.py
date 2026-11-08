@@ -99,3 +99,4 @@ TOP_FIVE_AI_SAFETY_PAPERS: List[ResearchPaper] = [
 def get_top_research_papers() -> List[ResearchPaper]:
     """Returns the verified reference papers."""
     return list(TOP_FIVE_AI_SAFETY_PAPERS)
+

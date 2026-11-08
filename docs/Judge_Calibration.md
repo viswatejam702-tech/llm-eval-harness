@@ -20,3 +20,4 @@ Where:
 - **False Positives (Judge = 1, Human = 0)**: Typically caused by plausible hallucinations—the judge is swayed by fluent domain prose despite underlying factual inaccuracies.
 - **False Negatives (Judge = 0, Human = 1)**: Caused by rigid lexical matching when the model used a valid synonym not present in the reference string.
 - **Agreement vs. Ground Truth**: High inter-rater agreement confirms procedural consistency, but ground truth requires external verification against primary literature.
+

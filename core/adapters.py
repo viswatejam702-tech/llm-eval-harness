@@ -141,3 +141,4 @@ class PromptfooAdapter:
             "pass_rate_pct": round(pass_rate, 2),
             "token_usage": stats.get("tokenUsage", {}),
         }
+

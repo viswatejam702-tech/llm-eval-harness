@@ -10,3 +10,4 @@ Aegis interfaces with model targets through a standardized adapter interface (`B
 2. **Model-as-a-Judge**: Multi-dimensional rubrics with Chain-of-Thought reasoning emitting structured JSON verdicts.
 3. **Multi-Turn Conversation Evaluation**: Progressive multi-turn evaluation assessing context retention and instruction hierarchy persistence.
 4. **Agent Tool-Use Sandbox**: Trajectory validation asserting tool argument hygiene and strict permission compliance.
+

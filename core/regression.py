@@ -137,3 +137,4 @@ def detect_regressions(
         metric_evaluations=results,
         summary_notes=notes,
     )
+

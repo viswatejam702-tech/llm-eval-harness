@@ -1,6 +1,12 @@
 services:
   - type: web
     name: aegis-harness
-    env: python
+    runtime: python
+    plan: free
+    autoDeploy: true
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn serving.server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.14

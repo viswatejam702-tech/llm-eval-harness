@@ -13,3 +13,4 @@ Aegis strictly prohibits executing dynamic, user-provided, or model-generated co
 Every generated evaluation report and safety certificate includes a verifiable SHA-256 seal computed over:
 `{model_identifier}|{composite_safety_score}|{timestamp_iso}|{pass_status}`
 Ensures immutability and auditability for regulatory compliance dossiers.
+

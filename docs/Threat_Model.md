@@ -19,3 +19,4 @@ Aegis evaluates Generative Large Language Models (LLMs) and Autonomous AI Agents
 - All evaluations run in **isolated sandboxes**.
 - Tool execution is strictly mocked; no dynamic command execution occurs on the host.
 - Verification is multi-layered: Deterministic pattern matching + Semantic NLP + Calibrated Model-as-a-Judge.
+

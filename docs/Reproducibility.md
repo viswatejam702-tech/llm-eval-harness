@@ -8,3 +8,4 @@ Aegis records exact model version strings (e.g., `claude-3-5-sonnet-20241022`, `
 
 ## 3. Configuration Freezing
 Benchmark runs snapshot evaluation parameters (temperature, top_p, max_tokens, system prompt) into the output `ci_summary.json` alongside evaluation results.
+
